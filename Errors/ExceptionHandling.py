@@ -1,5 +1,13 @@
 '''ATM MACHINE CODE '''
 
+# This is the Best Example I Have Chosen To Learn Exception Handling.
+# certain Exceptions Are there which I have imported.
+# They are errors according to the Banking Terminology but not according to mathematics.
+# So I need to create such errors so now python Interpreter is aware of such Errors and where ever it will find them it will throw Error which i will Handle later On.
+# So Just go through the file1.py file in which i have created those exceptions. 
+# It's very easy to create your own exceptions. You Just have to make your exception class the children of Main Exception Class.
+
+
 from Errors import file1
 from file1 import *
 
@@ -43,3 +51,4 @@ except Exception:
     print("Something went wrong")
 
 print("Bye")
+
